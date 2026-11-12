@@ -1,0 +1,43 @@
+body {
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  width: 400px;
+}
+
+/* Box-1: background color is blue, border doubly line */
+.box-1 {
+  background-color: #add8e6;
+  border: 4px double #ff4500;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Box-2: background color is yellow, blue border, border radius */
+.box-2 {
+  background-color: #ffff00;
+  border: 2px solid #0000ff;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Box-3: background green, gray dotted border */
+.box-3 {
+  background-color: #3cb371;
+  border: 4px dotted #808080;
+  padding: 10px 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
